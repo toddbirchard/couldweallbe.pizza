@@ -735,6 +735,8 @@ h6 {
   max-width: 1029px;
   margin: 0 auto;
   margin-bottom: 40px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #dedede;
 }
 
 .site-nav-left {
