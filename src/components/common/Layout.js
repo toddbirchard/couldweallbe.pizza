@@ -58,19 +58,20 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                                     <p className="site-banner-desc">{site.description}</p>
                                 </div> :
                                 null}
-                            <nav className="site-nav">
-                                <div className="site-nav-left">
-                                    {/* The navigation items as setup in Ghost */}
-                                    <Navigation data={site.navigation} navClass="site-nav-item" />
-                                </div>
-                                <div className="site-nav-right">
-                                    <Link className="site-nav-button" to="/about">About</Link>
-                                </div>
-                            </nav>
+
                         </div>
                     </header>
 
                     <main className="site-main">
+                        <nav className="site-nav">
+                            <div className="site-nav-left">
+                                {/* The navigation items as setup in Ghost */}
+                                <Navigation data={site.navigation} navClass="site-nav-item" />
+                            </div>
+                            <div className="site-nav-right">
+                                <Link className="site-nav-button" to="/about">About</Link>
+                            </div>
+                        </nav>
                         {/* All the main content gets inserted here, index.js, post.js */}
                         {children}
                     </main>

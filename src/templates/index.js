@@ -4,6 +4,7 @@ import { graphql } from 'gatsby'
 
 import { Layout, PostCard, Pagination } from '../components/common'
 import { MetaData } from '../components/common/meta'
+import '../styles/banner.less'
 
 /**
 * Main index page (home page)

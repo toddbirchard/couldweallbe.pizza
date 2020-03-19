@@ -55,6 +55,7 @@ module.exports = {
         },
         `gatsby-plugin-sharp`,
         `gatsby-transformer-sharp`,
+        `gatsby-plugin-less`,
         {
             resolve: `gatsby-source-ghost`,
             options:
