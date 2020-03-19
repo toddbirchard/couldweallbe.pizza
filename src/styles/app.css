@@ -803,8 +803,9 @@ h6 {
 
 .post-card-tags {
     margin: 0 0 5px 0;
-    color: var(--color-secondary);
+    color: #c8885e;
     font-size: 1.4rem;
+    font-weight: 700 !important;
     line-height: 1.15em;
 }
 
