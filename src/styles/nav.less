@@ -1,0 +1,51 @@
+.site-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto 40px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dedede;
+    @media (max-width: 980px) {
+      width: fill-available;
+      margin: 0 40px 4vw;
+    }
+
+    .site-nav-left {
+        margin: 0 20px 0 -10px;
+    }
+
+    .site-nav-button {
+        display: inline-block;
+        padding: 7px 12px;
+        border: #000 1px solid;
+        border-radius: 3px;
+        color: #000;
+        font-size: 1.1em;
+        font-weight: 500;
+        line-height: 1em;
+        opacity: 0.7;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
+
+.site-nav-item {
+    display: inline-block;
+    padding: 5px 10px;
+    color: #000;
+    font-weight: 600;
+    opacity: 0.7;
+
+    &:hover {
+        text-decoration: none;
+        opacity: 1;
+    }
+}
+
+.site-nav-icon {
+    height: 15px;
+    margin: -5px 0 0;
+}
