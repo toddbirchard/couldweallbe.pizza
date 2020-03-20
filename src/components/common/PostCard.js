@@ -4,6 +4,8 @@ import { Link } from 'gatsby'
 import { Tags } from '@tryghost/helpers-gatsby'
 import { readingTime as readingTimeHelper } from '@tryghost/helpers'
 
+import '../../styles/post-card.less'
+
 const PostCard = ({ post }) => {
     const url = `/${post.slug}/`
     const readingTime = readingTimeHelper(post)
@@ -31,7 +33,7 @@ const PostCard = ({ post }) => {
                                 <img className="default-avatar" src="/images/icons/avatar.svg" alt={post.primary_author.name}/>
                             }
                         </div>
-                        <span>{ post.primary_author.name }</span>
+                        <Link className="author-name" to={`/author/${post.primary_author.slug}`}>{ post.primary_author.name }</Link>
                     </div>
                     <div className="post-card-footer-right">
                         <div>{readingTime}</div>
@@ -53,7 +55,7 @@ PostCard.propTypes = {
                 name: PropTypes.string,
             })
         ),
-        excerpt: PropTypes.string.isRequired,
+        excerpt: PropTypes.string,
         primary_author: PropTypes.shape({
             name: PropTypes.string.isRequired,
             profile_image: PropTypes.string,
