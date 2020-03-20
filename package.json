@@ -13,7 +13,7 @@
     "sharp": "^0.25.1"
   },
   "engines": {
-    "node": ">= 12"
+    "node": ">=12"
   },
   "bugs": {
     "url": "https://github.com/tryghost/gatsby-starter-ghost/issues"

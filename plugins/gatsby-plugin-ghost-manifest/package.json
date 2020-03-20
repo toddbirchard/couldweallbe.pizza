@@ -24,12 +24,12 @@
         "pwa"
     ],
     "resolutions": {
-        "sharp": "0.25.1"
+        "sharp": ">=0.25.1"
     },
     "license": "MIT",
     "main": "index.js",
     "peerDependencies": {
-        "gatsby": ">2.19.49"
+        "gatsby": ">=2.19.0"
     },
     "scripts": {
         "build": "babel src --out-dir . --ignore **/__tests__",
