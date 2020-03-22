@@ -6,6 +6,9 @@ import Helmet from 'react-helmet'
 import { Layout } from '../components/common'
 import { MetaData } from '../components/common/meta'
 
+// Styles
+import '../styles/post.less'
+
 /**
 * Single post view (/:slug)
 *
