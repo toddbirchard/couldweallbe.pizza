@@ -1,0 +1,32 @@
+/* Footer
+/* ---------------------------------------------------------- */
+.site-foot {
+    padding: 40px 0;
+    background: var(--color-base);
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1.3rem;
+
+    .site-foot-nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        a {
+            color: rgba(255, 255, 255, 0.7);
+
+            &:hover {
+                color: rgba(255, 255, 255, 1);
+                text-decoration: none;
+            }
+        }
+
+        .site-foot-nav-right a {
+            display: inline-block;
+            padding: 2px 5px;
+
+            &:last-child {
+                padding-right: 0;
+            }
+        }
+    }
+}
