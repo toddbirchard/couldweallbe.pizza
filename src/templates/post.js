@@ -8,6 +8,7 @@ import { MetaData } from '../components/common/meta'
 
 // Styles
 import '../styles/post.less'
+import '../styles/kg.less'
 
 /**
 * Single post view (/:slug)
