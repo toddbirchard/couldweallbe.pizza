@@ -23,7 +23,7 @@ const MetaData = ({
 }) => {
     const canonical = url.resolve(config.siteUrl, location.pathname)
     const { ghostPost, ghostTag, ghostAuthor, ghostPage } = data
-    settings = settings.ghostSettings
+    settings = settings.allGhostSettings.edges[0].node
 
     if (ghostPost) {
         return (
