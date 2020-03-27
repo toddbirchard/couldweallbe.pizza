@@ -1,10 +1,10 @@
 {
   "development": {
-    "apiUrl": "https://couldweallbe.pizza",
+    "apiUrl": "https://consider.pizza",
     "contentApiKey": "5123984e4220498a70c80ad5c8"
   },
   "production": {
-    "apiUrl": "https://couldweallbe.pizza",
+    "apiUrl": "https://consider.pizza",
     "contentApiKey": "5123984e4220498a70c80ad5c8"
   }
 }

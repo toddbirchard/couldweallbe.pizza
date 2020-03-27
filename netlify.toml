@@ -4,3 +4,9 @@
 
 [template]
   incoming-hooks = ["Ghost"]
+
+[[redirects]]
+  from = "/ghost"
+  to = "https://consider.pizza/ghost"
+  status = 301
+  force = true
