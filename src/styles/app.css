@@ -536,9 +536,8 @@ h6 {
 }
 
 .container {
-    max-width: 1120px;
-    margin: 0 auto;
-    padding: 0 4vw;
+  max-width: 992px;
+  margin: 0 auto;
 }
 
 .content {
@@ -754,7 +753,7 @@ h6 {
     position: relative;
     align-items: center;
     justify-content: space-between;
-    margin: 4vw 0 2vw;
+    margin: 4vw 0;
 }
 
 .pagination a {

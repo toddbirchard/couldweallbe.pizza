@@ -1,7 +1,10 @@
 @import 'kg.less';
 
 .post-feature-image {
+  position: relative;
+  max-height: 500px;
   margin-bottom: 20px;
+  overflow: hidden;
 
   img {
     width: 100%;
@@ -11,7 +14,7 @@
 
 .post-full-content {
   max-width: 720px;
-  margin: 0 auto;
+  margin: 0 auto 50px;
   background: #fff;
 
   img {
@@ -19,6 +22,11 @@
     height: 500px;
     margin: 0 0 3vw;
     object-fit: cover;
+  }
+
+  audio {
+    margin-bottom: 20px;
+    outline: none;
   }
 
   blockquote {
