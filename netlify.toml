@@ -2,6 +2,9 @@
   command = "gatsby build"
   publish = "public/"
 
+[[plugins]]
+  package = "@netlify/plugin-gatsby"
+
 [template]
   incoming-hooks = ["Ghost"]
 
@@ -10,3 +13,26 @@
   to = "https://consider.pizza/ghost"
   status = 301
   force = true
+
+[[headers]]
+  for = "/rss.xml"
+
+[headers.values]
+  content-type = "application/xml; charset=utf-8"
+
+[build.processing]
+  skip_processing = false
+
+[build.processing.css]
+  bundle = true
+  minify = true
+
+[build.processing.js]
+  bundle = true
+  minify = true
+
+[build.processing.html]
+  pretty_urls = true
+
+[build.processing.images]
+  compress = true
