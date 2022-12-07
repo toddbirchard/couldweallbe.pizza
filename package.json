@@ -56,7 +56,7 @@
     "gatsby-plugin-sharp": "^4.4.0",
     "gatsby-react-router-scroll": "^5.4.0",
     "gatsby-source-filesystem": "^4.4.0",
-    "gatsby-source-ghost": "4.2.4",
+    "gatsby-source-ghost": "5.0.1",
     "gatsby-transformer-sharp": "^4.4.0",
     "less": "^4.1.2",
     "lodash": "4.17.21",
